@@ -6,7 +6,6 @@
   body{
     background-color: #20B2AA;
     min-height: 100vh;
-    display: grid;
     place-items: center;
   }
 
@@ -45,4 +44,7 @@
     font-size: 1rem;
   }
 
-  #map { height: 70px; }
+  #map { 
+    height: 70px; 
+    place-items: center;
+  }
