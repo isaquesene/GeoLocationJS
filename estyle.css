@@ -46,7 +46,10 @@
   }
 
   #map { 
-    height: 100px; 
-    place-items: center;
-    display: grid;
+    min-width: 500px;
+    background-color: #F8F8FF;
+    border-radius: 15px;
+    padding: 12px;
+    text-align: center;
+    box-shadow: #000000 0 10px 20px -10px;
   }
