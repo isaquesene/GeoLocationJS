@@ -38,3 +38,7 @@
     cursor: pointer;
     transition: all .4s;
   }
+
+  .find-state:hover{
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  }
