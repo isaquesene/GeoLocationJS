@@ -21,3 +21,9 @@
     text-align: center;
     box-shadow: #000000 0 10px 20px -10px;
   }
+
+  .status{
+    font-size: 22pt;
+    color: rgb(80,80,80);
+    margin: 15px 0;
+  }
