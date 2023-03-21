@@ -14,10 +14,8 @@ const findMyState = () => {
         .then(data => {
             console.log(data)
            //status.textContent = data.city
-           //status.textContent = data.locality
-           //status.textContent = data.city
-           let status = res.result[0].components;
-           let {country, postcode, country} = status;
+           status.textContent = data.locality
+           status.textContent = data.city
            
         }))
     }
