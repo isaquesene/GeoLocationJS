@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estyle.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <!--quik start leaflet-->
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+   integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+   crossorigin=""/>
+
+   <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+   integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+   crossorigin=""></script>
     <title>Document</title>
 </head>
 <body>
@@ -13,6 +23,9 @@
         <i class="fa fa-map-marker" aria-hidden="true"></i><h1 class="status"></h1>
         <button class="find-state">Minha localização</button>
     </div>
+
+    <h1>Minha Localização</h1>
+    <div id="map"></div>
     <script src="main.js"></script>
 </body>
 </html>
