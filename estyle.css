@@ -45,6 +45,7 @@
   }
 
   #map { 
+    width: 50px;
     height: 100px; 
     place-items: center;
   }
